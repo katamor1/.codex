@@ -1,0 +1,12 @@
+# .codex/agents/implementer.toml
+
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+developer_instructions = """
+- designer が提供した設計文書に従ってコードを実装し、必ずユニットテストと静的解析を実行してください。
+- 変更点は差分として提案し、必要に応じて Skill を活用して自動生成やリファクタリングを行います。
+- 設計に関する疑問がある場合はデザインエージェントに質問してください。
+"""
+
+# END OF FILE

@@ -1,0 +1,34 @@
+# .codex/config.toml
+
+sandbox_mode = "workspace-write"
+model = "gpt-5.4"
+model_reasoning_effort = "xhigh"
+approval_policy = "never"
+
+[windows]
+sandbox = "elevated"
+
+[agents]
+# 同時に開くことができるエージェントスレッド数とネスト深度
+max_threads = 6
+max_depth = 1
+
+[agents.designer]
+description = "要件を分析し、設計文書やアーキテクチャを作成する設計エージェント。実装やレビューは行わない。"
+config_file = "agents/designer.toml"
+
+[agents.implementer]
+description = "設計書に基づきコードを書き、テストを実行する実装エージェント。"
+config_file = "agents/implementer.toml"
+
+[agents.reviewer]
+description = "実装結果をレビューし、バグやセキュリティリスク、テスト不足を指摘するレビューエージェント。"
+config_file = "agents/reviewer.toml"
+
+[sandbox_workspace_write]
+network_access = true
+
+[features]
+multi_agent = true
+
+# END OF FILE
