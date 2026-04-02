@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-03-31T20:18:01.864551300Z",
-  "etag": "W/\"63d3b0d13ef85553eb185e5958f6bcae\"",
-  "client_version": "0.115.0",
+  "fetched_at": "2026-04-02T18:41:27.958077300Z",
+  "etag": "W/\"da656057b7f46cb0bf3a924ea81c75a4\"",
+  "client_version": "0.118.0",
   "models": [
     {
       "slug": "gpt-5.4",
@@ -60,7 +60,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": true
     },
     {
@@ -120,7 +119,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": true
     },
     {
@@ -183,7 +181,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": true
     },
     {
@@ -246,7 +243,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": true
     },
     {
@@ -301,7 +297,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": true
     },
     {
@@ -356,7 +351,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -407,7 +401,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -458,7 +451,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -509,7 +501,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -564,7 +555,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -611,7 +601,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     },
     {
@@ -658,7 +647,6 @@
         "text",
         "image"
       ],
-      "prefer_websockets": true,
       "supports_search_tool": false
     }
   ]

@@ -31,4 +31,16 @@ network_access = true
 [features]
 multi_agent = true
 
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."cloudflare@openai-curated"]
+enabled = true
+
+[plugins."build-web-apps@openai-curated"]
+enabled = true
+
+[plugins."canva@openai-curated"]
+enabled = true
+
 # END OF FILE

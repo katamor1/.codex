@@ -106,3 +106,6 @@ cap_sid
 /sessions
 /tmp
 /archived_sessions
+/plugins/cache
+/cache
+/.tmp
