@@ -43,4 +43,72 @@ enabled = true
 [plugins."canva@openai-curated"]
 enabled = true
 
+[mcp_servers.tradingview]
+command = "node"
+args = ["src/server.js"]
+cwd = "C:/Users/stell/source/repos/tradesdontlie"
+
+[mcp_servers.tradingview.env]
+TRADINGVIEW_EXE = "C:/Program Files/WindowsApps/TradingView.Desktop_3.0.0.7652_x64__n534cwy3pjxzj/TradingView.exe"
+
+[mcp_servers.tradingview.tools.chart_get_state]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.quote_get]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.data_get_ohlcv]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.data_get_study_values]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.pine_analyze]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.pine_check]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.chart_set_symbol]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.chart_set_timeframe]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.pine_get_errors]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.ui_open_panel]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.capture_screenshot]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.data_get_strategy_results]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.pine_smart_compile]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.ui_find_element]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.ui_evaluate]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.pine_compile]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.ui_click]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.ui_mouse_click]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.data_get_indicator]
+approval_mode = "approve"
+
+[mcp_servers.tradingview.tools.indicator_set_inputs]
+approval_mode = "approve"
+
 # END OF FILE
